@@ -28,12 +28,34 @@ p {
 
 .card-custom {
     background-color: #414141;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 10px;
     color: #cacaca;
 }
 
 .card-body-custom {
     text-align: center;
+}
+
+.card-text-custom {
+    color: #cacaca;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.col-card-custom {
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.btn-primary-custom {
+    text-align: right;
+    color: #cacaca;
+    background-color: #338aee;
 }
 
 @keyframes fadeIn {
