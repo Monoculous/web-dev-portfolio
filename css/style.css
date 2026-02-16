@@ -36,6 +36,7 @@ p {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 7px;
+    
     color: #cacaca;
 }
 
@@ -51,10 +52,11 @@ p {
 
 .col-card-custom {
     display: flex;
-    justify-content: center;;
+    min-height: 200px;
     align-items: center;
     padding-left: 5%;
     padding-right: 5%;
+
 }
 
 .badge-card-custom {
