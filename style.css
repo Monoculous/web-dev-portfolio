@@ -1,7 +1,7 @@
 body {
     background: #313131;
     background-repeat: no-repeat;
-    font-family: 'monserrat bold', sans-serif;
+    font-family: 'fontClass', sans-serif;
     color: #cacaca;
 }
 
@@ -30,4 +30,11 @@ h1 {
 
 div {
     animation: fadeIn 2s ease-in-out;
+}
+
+.jetbrains-mono-fontClass {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
