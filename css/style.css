@@ -26,11 +26,16 @@ p {
     margin: 1px;
 }
 
+.nav-badge-custom {
+    font-size: 20px;
+    animation: flash 1s infinite;
+}
+
 .card-custom {
     background-color: #414141;
     margin-left: 10px;
     margin-right: 10px;
-    border-radius: 10px;
+    border-radius: 7px;
     color: #cacaca;
 }
 
