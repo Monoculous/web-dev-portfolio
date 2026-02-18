@@ -57,17 +57,7 @@ p {
 .card-text-custom {
     color: #cacaca;
     font-weight: bold;
-    font-size: 13px;
-    font-size: clamp(1rem, 1.2vw, 1.2rem);
-}
-
-.col-card-custom {
-    display: flex;
-    min-height: 200px;
-    align-items: center;
-    padding-left: 5%;
-    padding-right: 5%;
-
+    font-size: clamp(8px, 12px, 13px);
 }
 
 .badge-card-custom {
