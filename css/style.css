@@ -34,6 +34,8 @@ p {
     margin-right: 5%;
 }
 
+
+
 .navbar-custom {
     background-color: #525252;
     border-radius: 10px;
@@ -44,6 +46,8 @@ p {
     padding: 0;
     animation: flash 1s infinite;
 }
+
+
 
 .card-custom {
     background-color: #414141;
@@ -65,6 +69,8 @@ p {
     font-size: clamp(8px, 12px, 13px);
 }
 
+
+
 .badge-card-custom {
     font-size: 10px;
     float: left;
@@ -78,6 +84,8 @@ p {
 
     animation: flash 1s infinite;
 }
+
+
 
 div {
     animation: fadeIn 2s ease-in-out;
