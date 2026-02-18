@@ -71,12 +71,6 @@ p {
     background-color: rgb(106, 186, 240);
 }
 
-.btn-primary-custom {
-    text-align: right;
-    color: #cacaca;
-    background-color: #338aee;
-}
-
 .badge-custom {
     color: #EC625F;
     font-size: larger;
