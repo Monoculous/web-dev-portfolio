@@ -1,13 +1,20 @@
-.container {
-    min-height: 100%;
 
+html, body {
+    height: 100%;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background: #313131;
     background-repeat: no-repeat;
     font-family: 'JetBrains Mono', monospace;
     color: #cacaca;
+}
+
+main {
+    flex: 1;
 }
 
 h1, h2, h3 {
@@ -37,6 +44,7 @@ p {
 
 .nav-badge-custom {
     font-size: 20px;
+    padding: 0;
     animation: flash 1s infinite;
 }
 
@@ -75,9 +83,25 @@ p {
 .badge-custom {
     color: #EC625F;
     font-size: larger;
+    padding: 0;
 
     animation: flash 1s infinite;
 }
+
+div {
+    animation: fadeIn 2s ease-in-out;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #EC625F;
+    color: #cacaca;
+    margin-top: 100px;
+}
+
+
+
 
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -90,17 +114,4 @@ p {
     50% { opacity: 0; }
     99% { opacity: 0; }
     100% { opacity: 1; }
-}
-
-div {
-    animation: fadeIn 2s ease-in-out;
-}
-
-footer {
-    display: flex-end;
-    text-align: center;
-    padding: 20px;
-    background-color: #EC625F;
-    color: #cacaca;
-    margin-top: 20px;
 }
