@@ -1,3 +1,8 @@
+.container {
+    min-height: 100%;
+
+}
+
 body {
     background: #313131;
     background-repeat: no-repeat;
@@ -7,7 +12,8 @@ body {
 
 h1, h2, h3 {
     text-align:  center;
-    padding-block: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     animation: fadeIn 2s ease-in-out;
     font-family: 'JetBrains Mono', monospace;
     color: #EC625F
@@ -15,7 +21,10 @@ h1, h2, h3 {
 
 p {
     animation: fadeIn 1s ease-in-out;
+    font-size: clamp(1rem, 1.2vw, 1.2rem);
     text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .navbar-custom {
@@ -42,12 +51,14 @@ p {
 
 .card-body-custom {
     text-align: center;
+    min-height: 250px;
 }
 
 .card-text-custom {
     color: #cacaca;
     font-weight: bold;
     font-size: 13px;
+    font-size: clamp(1rem, 1.2vw, 1.2rem);
 }
 
 .col-card-custom {
@@ -93,4 +104,13 @@ p {
 
 div {
     animation: fadeIn 2s ease-in-out;
+}
+
+footer {
+    display: flex-end;
+    text-align: center;
+    padding: 20px;
+    background-color: #EC625F;
+    color: #cacaca;
+    margin-top: 20px;
 }
